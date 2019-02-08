@@ -25,7 +25,10 @@ SECRET_KEY = 'zs%bgpl+x@26zmrooo+s6mi$hy^%^!p8%@x6cyj+l0@b(58(ud'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost',
+    '127.0.0.1',
+    '.elasticbeanstalk.com',
+    'EBDjangoProject-dev.ap-northeast-2.elasticbeanstalk.com']
 
 
 # Application definition
