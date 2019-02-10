@@ -1,4 +1,5 @@
 import sys
+import os
 
 if __name__ == '__main__':
-    sys.command(sys.argv[1])
+    os.system(sys.argv[1])
