@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
 """
 
 import os
+# sys.path.insert(0, '/opt/python/current/app')
 
 from django.core.wsgi import get_wsgi_application
 
